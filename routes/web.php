@@ -27,5 +27,6 @@ Route::resource('posts', 'PostController');
 
 Route::resource('blogs', 'BlogController');
 Route::resource('users', 'UserController');
+Route::resource('articles', 'ArticleController');
 
 
