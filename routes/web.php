@@ -25,6 +25,7 @@ Route::get('/another', function () {
 
 Route::resource('posts', 'PostController');
 
-Route::get('blogs', 'BlogController');
+Route::resource('blogs', 'BlogController');
+Route::resource('articles', 'ArticleController');
 
 
