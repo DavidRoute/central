@@ -23,4 +23,8 @@ Route::get('/another', function () {
 	return "Another Route";
 });
 
+Route::resource('posts', 'PostController');
+
 Route::get('blogs', 'BlogController');
+
+
