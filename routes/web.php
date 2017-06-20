@@ -20,7 +20,7 @@ Route::get('/home', function () {
 });
 
 Route::get('/another', function () {
-	return "Another Route";
+	return "App1 Route";
 });
 
 Route::resource('posts', 'PostController');
