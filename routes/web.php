@@ -30,3 +30,6 @@ Route::resource('users', 'UserController');
 Route::resource('articles', 'ArticleController');
 
 
+Route::resource('test1','TestController');
+
+
