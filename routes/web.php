@@ -29,6 +29,11 @@ Route::resource('blogs', 'BlogController');
 Route::resource('users', 'UserController');
 Route::resource('articles', 'ArticleController');
 
+Route::resource('newroute','NewrouteController');
+
+Route::resource('test', 'TestController');
+
+
 
 Route::resource('test1','TestController');
 
