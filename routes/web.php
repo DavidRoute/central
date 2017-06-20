@@ -33,7 +33,17 @@ Route::resource('newroute','NewrouteController');
 
 Route::resource('test', 'TestController');
 
+<<<<<<< HEAD
 Route::resource('sai','SaiController');
 
+=======
+Route::resource('dog','DogController');
+
+
+
+
+
+Route::resource('test1','TestController');
+>>>>>>> 63536104715a68827b5bfb4fc6c39c7e117aefe7
 
 
