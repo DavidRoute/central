@@ -33,5 +33,7 @@ Route::resource('newroute','NewrouteController');
 
 Route::resource('test', 'TestController');
 
+Route::resource('sai','SaiController');
+
 
 
