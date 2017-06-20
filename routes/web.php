@@ -33,6 +33,10 @@ Route::resource('newroute','NewrouteController');
 
 Route::resource('test', 'TestController');
 
+Route::resource('dog','DogController');
+
+
+
 
 
 Route::resource('test1','TestController');
